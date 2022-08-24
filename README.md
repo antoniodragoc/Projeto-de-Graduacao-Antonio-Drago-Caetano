@@ -5,7 +5,8 @@ Neste repositório estão os códigos utilizados para o Projeto de Graduação n
 O texto pode ser acessado no [link](adicionar).
 
 <h2> Introdução </h2>
-Com o propósito de ajudar a comunidade médica com o diagnóstico precoce de câncer de mama, imagens microscópicas de tecido da mama foram obtidas de diversas pacientes, tanto aquelas que possuíam câncer como aquelas que estavam livres da doença. A base de dados foi disponibilizada de forma gratuita, disponível no site da [ICIAR 2018](https://iciar2018-challenge.grand-challenge.org/), para o Grand Challenge on Breast Cancer Histology Images – BACH (ICIAR, 2018). 
+Com o propósito de ajudar a comunidade médica com o diagnóstico precoce de câncer de mama, imagens microscópicas de tecido da mama foram obtidas de diversas pacientes, tanto aquelas que possuíam câncer como aquelas que estavam livres da doença. 
+A base de dados foi disponibilizada de forma gratuita, disponível no site da <a href="https://iciar2018-challenge.grand-challenge.org" target="_blank">ICIAR 2018</a>, para o Grand Challenge on Breast Cancer Histology Images – BACH (ICIAR, 2018). 
 
 O principal objetivo do desafio foi obter formas de classificação automática de imagens de microscopia celular para a detecção de câncer de mama. Ao todo, houve 677 registros para a participação do evento, porém, aconteceram apenas 64 envios para avaliação, o que obteve o melhor desempenho apresentou 87% de acurácia (ARESTA; ARAÚJO; KWOK; et al., 2019).
 
