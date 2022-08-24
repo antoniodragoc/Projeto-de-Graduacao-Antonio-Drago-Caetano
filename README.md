@@ -18,8 +18,6 @@ Para a Classificação das imagens foram utilizados métodos supervisionados:
   - Modelos Clássicos: SVM e XGBoost
   
 Importante ressaltar que a ResNet-50 como extrator de características para as entradas dos modelos clássicos.
-  
-As imagens diponibilizadas neste repositório já foram pré-processadas. Caso deseje-se utilizar imagens maiores será necessário o download do dataset no link do desafio.
 
 Os dados foram salvos em pastas separadas pelos rótulos de treino, validação e teste, o primeiro conjunto tem 300 imagens (75%), o segundo possui 60 imagens (15%) e o terceiro tem 40 imagens (10%). A divisão foi feita por meio de pastas que foram divididas conforme a etapa em questão train, val e test e o rótulo dos dados podendo ser: benign, in situ, invasive e normal. 
 
