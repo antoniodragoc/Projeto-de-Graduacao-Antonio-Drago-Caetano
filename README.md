@@ -19,6 +19,9 @@ Para a Classificação das imagens foram utilizados métodos supervisionados:
   
 Importante ressaltar que a ResNet-50 como extrator de características para as entradas dos modelos clássicos.
 
+As imagens disponibilizadas neste repositório já passarma pelo pré-processamento, caso deseje utilizar imagens com dimensões diferentes, será necessário baixar o dataset no site do desafio.
+
+
 Os dados foram salvos em pastas separadas pelos rótulos de treino, validação e teste, o primeiro conjunto tem 300 imagens (75%), o segundo possui 60 imagens (15%) e o terceiro tem 40 imagens (10%). A divisão foi feita por meio de pastas que foram divididas conforme a etapa em questão train, val e test e o rótulo dos dados podendo ser: benign, in situ, invasive e normal. 
 
 As imagens originais eram de alta resolução com aproximadamente 13 MB de tamanho e resolução de 2048 × 1536 pixels. Por conta da elevada dimensionalidade e tamanho de cada exemplar, foi necessário modificar as dimensões das imagens, conforme feito no artigo que obteve a oitava colocação no desafio BACH de 2018 (KONÉ; BOULMANE, 2018). No primeiro momento foi feita a redução no tamanho para 399 × 299 pixels, com o objetivo de se manter o aspecto e evitar o achatamento da figura, evitando assim a distorção das características. Em seguida, foram cortadas em 50 pixels de cada uma das extremidades chegando ao resultado final de 299 × 299 pixels. O resultado final foi uma grande redução no tamanho total do conjunto de dados que no primeiro momento possuía mais de 13 GB e no segundo momento, o mesmo conjunto com 400 imagens passou a ocupar apenas 80 MB de espaço. 
